@@ -1,49 +1,101 @@
-![alt Habit/Fract](https://github.com/HabFract/monorepo/blob/main/ui/public/assets/logo-dark-transparent-horizontal.svg?raw=true)
-![alt Girl running](https://github.com/HabFract/monorepo/blob/main/ui/public/assets/home-life-spheres-girl.svg?raw=true)
+# Planitt
 
-Innovative habit tracking application that helps you drill down or build up from any scale. Built on Holochain for complete control over privacy and data sovereignty.
+![Planitt Logo](https://github.com/HabFract/monorepo/blob/main/ui/public/assets/logo-dark-transparent-horizontal.svg?raw=true)
 
-With the release of HabitFract 1.x, you will be able to:
+Planitt is an innovative habit tracking application that empowers users to create and manage goals and habits through a fractal structure. Built on Holochain, it ensures complete control over privacy and data sovereignty.
 
-    Create a never-ending fractal structure of goals and habits.
-    Visualize your progress with intuitive, dynamic data visualisations.
-    Maintain full control over your data with Holochain's encryption and data sovereignty features.
-    Share and trade visualisations within a peer-to-peer network.
-    Create private channels with other agents to share progress with, remain accountable to, or help mentor others.
+## 🌟 Features
 
-Dive into the world of fractal habit tracking and join us on a quest to make consistent progress towards our goals. Whether you're a visionary thinker or a meticulous planner, Habit/Fract is your companion in the journey of self-improvement and achievement.
+- **Fractal Structure**: Create a never-ending fractal of goals and habits.
+- **Dynamic Visualizations**: Visualize progress with intuitive data visualizations.
+- **Data Sovereignty**: Maintain full control over your data with Holochain's encryption.
+- **Peer-to-Peer Sharing (ON ROADMAP)**: Share and trade visualizations within a secure network.
+- **Private Channels (ON ROADMAP)**: Collaborate with others for accountability and mentorship.
 
-## Dev Environment Setup:
-1: Install nix using the following command
-`bash <(curl https://holochain.github.io/holochain/setup.sh)`
+Join us in the journey of self-improvement and achievement with Planitt, your companion for consistent progress.
 
-2: Run `nix develop` from this directory
+## 🚀 Getting Started
 
-3: Run `pnpm i` (assuming `pnpm` is installed globally)
+### Prerequisites
 
-4: Run `pnpm run --dir design-system build`
+- **Nix**: Install using the command:
+  ```bash
+  bash <(curl https://holochain.github.io/holochain/setup.sh)
+  ```
+- **pnpm**: Ensure `pnpm` is installed globally.
 
-5: Rename `example.env` to `.env` (changing the port numbers as required)
+### Development Environment Setup
 
-6: `pnpm run dev`
+1. **Enter Development Shell**:
+   ```bash
+   nix develop
+   ```
 
-7: Wait for a browser to open at http://localhost:8888/  (you may also need to refresh after a few moments)
+2. **Install Dependencies**:
+   ```bash
+   pnpm i
+   ```
 
+3. **Build Design System**:
+   ```bash
+   pnpm run --dir design-system build
+   ```
 
-For graphql intellisense based on the schema:
+4. **Configure Environment**:
+   - Rename `example.env` to `.env` and adjust port numbers as needed.
 
-1: Install 'Graphql for VSCode' extension
+5. **Start Development Server**:
+   ```bash
+   pnpm run dev
+   ```
 
-2: Install Watchman. https://facebook.github.io/watchman/docs/install
+6. **Access Application**:
+   - Open your browser at [http://localhost:8888](http://localhost:8888) (refresh if necessary).
 
-If you get errors, check the output tab of your console under 'GraphQL - monorepo'
+### GraphQL Intellisense
 
-## Tests:
+1. **Install VSCode Extension**: 'GraphQL for VSCode'
+2. **Install Watchman**: [Watchman Installation Guide](https://facebook.github.io/watchman/docs/install)
 
-In a nix shell, run `pnpm test` from the workspace root.
+Check the 'GraphQL - monorepo' output tab in your console for errors.
 
-## Production (after dev installation steps):
+## 🧪 Running Tests
 
-1. Open nix shell: `nix develop`
-2. Build: `pnpm run build:frontend`
-3. Run: `pnpm start`
+- In a Nix shell, execute:
+  ```bash
+  pnpm test
+  ```
+
+## 🏭 Production Setup
+
+1. **Open Nix Shell**:
+   ```bash
+   nix develop
+   ```
+
+2. **Build Frontend**:
+   ```bash
+   pnpm run build:frontend
+   ```
+
+3. **Start Application**:
+   ```bash
+   pnpm start
+   ```
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 🔗 Links
+
+- [Website](https://plannit.io)
+- [Video Demo]: (https://streamable.com/pu04hz?src=player-page-share)
+
+## 📸 Screenshots
+
+![planitt-transp](https://github.com/user-attachments/assets/c1807428-6743-4986-9e36-e8dafe4e090c)
