@@ -1,4 +1,4 @@
-# Planitt - your visual, local-first, peer-to-peer encrypted behavioural planner!
+# Planitt - your visual, local-first, p2p behavioural planner!
 
 ![planitt-transp](https://github.com/user-attachments/assets/c1807428-6743-4986-9e36-e8dafe4e090c)
 
