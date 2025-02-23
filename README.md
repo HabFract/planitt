@@ -69,7 +69,7 @@ Check the 'GraphQL - monorepo' output tab in your console for errors.
 
 1. **Open Nix Shell**:
    ```bash
-   nix develop
+   nix develop .#androidDev
    ```
 
 2. **Build Frontend**:
@@ -83,8 +83,8 @@ Check the 'GraphQL - monorepo' output tab in your console for errors.
    ```
 
 4. **Build for Android**
-  ```
-  npx tauri android build
+  ``` 
+  pnpm run tauri android build
   ```
 
 ## 📄 License
@@ -97,5 +97,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 🔗 Links
 
-- [Website](https://plannit.io)
+- [Website](https://planitt.io)
 - [Video Demo]: (https://streamable.com/pu04hz?src=player-page-share)
