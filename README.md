@@ -89,7 +89,7 @@ Check the 'GraphQL - monorepo' output tab in your console for errors.
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License. See the [[LICENSE](LICENSE)](https://github.com/HabFract/planitt/blob/main/ui/src/LICENSE) file for details.
 
 ## 🤝 Contributing
 
@@ -98,4 +98,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 🔗 Links
 
 - [Website](https://planitt.io)
-- [Video Demo]: (https://streamable.com/pu04hz?src=player-page-share)
+- [Video Demo](https://streamable.com/pu04hz?src=player-page-share)
