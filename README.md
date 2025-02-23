@@ -1,11 +1,10 @@
-# Planitt
+# Planitt - your visual, local-first, peer-to-peer encrypted behavioural planner!
 
-![Planitt Logo](https://github.com/HabFract/monorepo/blob/main/ui/public/assets/logo-dark-transparent-horizontal.svg?raw=true)
+![planitt-transp](https://github.com/user-attachments/assets/c1807428-6743-4986-9e36-e8dafe4e090c)
 
 Planitt is an innovative habit tracking application that empowers users to create and manage goals and habits through a fractal structure. Built on Holochain, it ensures complete control over privacy and data sovereignty.
 
 ## 🌟 Features
-
 - **Fractal Structure**: Create a never-ending fractal of goals and habits.
 - **Dynamic Visualizations**: Visualize progress with intuitive data visualizations.
 - **Data Sovereignty**: Maintain full control over your data with Holochain's encryption.
@@ -83,6 +82,11 @@ Check the 'GraphQL - monorepo' output tab in your console for errors.
    pnpm start
    ```
 
+4. **Build for Android**
+  ```
+  npx tauri android build
+  ```
+
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -95,7 +99,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 - [Website](https://plannit.io)
 - [Video Demo]: (https://streamable.com/pu04hz?src=player-page-share)
-
-## 📸 Screenshots
-
-![planitt-transp](https://github.com/user-attachments/assets/c1807428-6743-4986-9e36-e8dafe4e090c)
